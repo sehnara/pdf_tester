@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "pdf_tester",
+    "slug": "pdf_tester",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "pdf_tester"
+}
