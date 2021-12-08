@@ -1,21 +1,24 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { SafeAreaView, StyleSheet, Text, View } from "react-native";
 import PdfView from "./src/pdf";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <PdfView />
-    </View>
+    <SafeAreaView style={{ flex: 1 }}>
+      <View style={styles.container}>
+        <PdfView />
+      </View>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "rgb(165,165,165)",
     alignItems: "center",
     justifyContent: "center",
+    padding: 20,
   },
 });
